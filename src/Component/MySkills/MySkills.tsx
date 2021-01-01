@@ -1,5 +1,7 @@
 import React from 'react';
 
 export const MySkills = () => {
-    return <></>
+    return <div>
+      Мои работы
+    </div>
 }
