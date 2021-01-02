@@ -4,5 +4,20 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+
+.main_title{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
 }

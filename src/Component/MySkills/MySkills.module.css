@@ -1,11 +1,4 @@
-.main_block{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.block_skills{
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+.block{
+    background-color: #241e1e;
+    color: #d2caca;
 }

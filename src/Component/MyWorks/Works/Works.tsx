@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Skills.module.css'
+import s from './Works.module.css'
 
-export const Skills = () => {
+export const Works = () => {
     return <div className={s.card}>
         <div className={s.img}>img</div>
         <div className={s.title}>title</div>
