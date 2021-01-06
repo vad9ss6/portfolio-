@@ -1,3 +1,15 @@
 .header{
     position: relative;
+    z-index: 999;
+}
+
+.arrowUp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.btnUp:hover{
+    color: #053373;
 }

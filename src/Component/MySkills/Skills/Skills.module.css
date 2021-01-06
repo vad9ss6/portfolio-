@@ -2,9 +2,8 @@
     width: 300px;
     height: auto;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 20px;
     display: flex;
-
     flex-direction: column;
     align-items: center;
     background-color: #d92929;
