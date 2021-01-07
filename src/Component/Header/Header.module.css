@@ -8,8 +8,14 @@
     right: 20px;
     bottom: 20px;
     cursor: pointer;
+    z-index: -1;
+}
+
+.btnUp{
+    z-index: 999;
 }
 
 .btnUp:hover{
+
     color: #053373;
 }

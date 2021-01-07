@@ -4,23 +4,26 @@
 }
 
 .greetingText{
+    z-index: 2;
     width: 300px;
-    background-color: azure;
+    color: #fff
 }
 
 .photo{
+    z-index: 2;
+    backface-visibility: hidden;
     position: relative;
-    display: block;
     top: 0;
     left: 0;
 
 }
 
 .myPhoto{
+    z-index: 2;
     transition: transform .1s ;
     transform-style: preserve-3d;
-    backface-visibility: hidden;
     display: block;
     max-width: 300px ;
     height: auto;
+    margin-right: 80px;
 }
