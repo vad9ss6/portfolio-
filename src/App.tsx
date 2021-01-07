@@ -24,12 +24,12 @@ type stateType = {
 
 const state: stateType = {
     mySkills: [
-        {id: 1, iconSvg: ["fab", "js"], title: 'JavaScript', description: '', color:'#E8D44D', animation: 'left'},
-        {id: 2, iconSvg: ["fab", "react"], title: 'React', description: '', color:'#5ED3F3', animation: 'left'},
-        {id: 3, iconSvg: ["fas", "atom"], title: 'Redux', description: '', color:'#7248B6', animation: 'left'},
-        {id: 4, iconSvg: ["fab", "github"], title: 'GitHub', description: '', color:'#161414', animation: 'right'},
-        {id: 5, iconSvg: ["fab", "html5"], title: 'HTML5', description: '', color:'#E96228', animation: 'right'},
-        {id: 6, iconSvg: ["fab", "css3-alt"], title: 'CSS3', description: '', color:'#28A3D9', animation: 'right'},
+        {id: 1, iconSvg: ["fab", "js"], title: 'JavaScript', description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', color:'#E8D44D', animation: 'left'},
+        {id: 2, iconSvg: ["fab", "react"], title: 'React', description: 'Lorem ipsum dolor ', color:'#5ED3F3', animation: 'left'},
+        {id: 3, iconSvg: ["fas", "atom"], title: 'Redux', description: 'Lorem ipsum dolor sit amet, consectetur ', color:'#7248B6', animation: 'left'},
+        {id: 4, iconSvg: ["fab", "github"], title: 'GitHub', description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque maiores, molestias reiciendis sit totam unde vero voluptates?', color:'#161414', animation: 'right'},
+        {id: 5, iconSvg: ["fab", "html5"], title: 'HTML5', description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque maiores, molestias reiciendis ', color:'#E96228', animation: 'right'},
+        {id: 6, iconSvg: ["fab", "css3-alt"], title: 'CSS3', description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ', color:'#28A3D9', animation: 'right'},
     ],
     MyWorks: '',
     Footer: ''
