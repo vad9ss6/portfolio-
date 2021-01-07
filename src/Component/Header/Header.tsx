@@ -16,7 +16,7 @@ export const Header = () => {
         let photo  = document.getElementById('photo')
         window.addEventListener('mousemove',e => {
             if(photo){
-                photo.style.transform = (`translate(${e.screenX / 30}px,${e.screenY / 50}px)`)
+                photo.style.transform = (`translate(${e.screenX / 30}px,${e.screenY / 30}px)`)
             }
         })
     },[])
