@@ -9,7 +9,18 @@
 }
 
 .photo{
-    width: 300px;
-    height: 400px;
-    background-color: #d2caca;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+
+}
+
+.myPhoto{
+    transition: transform .1s ;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    display: block;
+    max-width: 300px ;
+    height: auto;
 }
