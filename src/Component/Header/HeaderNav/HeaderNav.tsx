@@ -18,10 +18,10 @@ export const HeaderNav:FC<HeaderNavPropsType> = ({isActive,toggleButton}) => {
         toggleButton()
     }
     return <div style={styleHeaderNavAnimate} className={s.headerNav}>
-        <Link activeClass={s.active} to={'Header'} spy={true} smooth={true} duration={1000} className={linkStyle.link} onClick={closeMenu}>Главная</Link>
-        <Link activeClass={s.active} to={'MySkills'} spy={true} smooth={true} duration={1000} className={linkStyle.link} onClick={closeMenu}>Мои скилы</Link>
-        <Link activeClass={s.active} to={'MySkills'} spy={true} smooth={true} duration={1000} className={linkStyle.link} onClick={closeMenu}>Мои работы</Link>
-        <Link activeClass={s.active} to={'MySkills'} spy={true} smooth={true} duration={1000} className={linkStyle.link} onClick={closeMenu}>Контакты</Link>
+        <Link activeClass={s.active} to={'Header'} spy={true} smooth={true} duration={1000} className={linkStyle.link} onClick={closeMenu}>Header</Link>
+        <Link activeClass={s.active} to={'MySkills'} spy={true} smooth={true} duration={1000} className={linkStyle.link} onClick={closeMenu}>My skills</Link>
+        <Link activeClass={s.active} to={'MyWorks'} spy={true} smooth={true} duration={1000} className={linkStyle.link} onClick={closeMenu}>My works</Link>
+        <Link activeClass={s.active} to={'Contact'} spy={true} smooth={true} duration={1000} className={linkStyle.link} onClick={closeMenu}>Contacts</Link>
     </div>
 }
 
