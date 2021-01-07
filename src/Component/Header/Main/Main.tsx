@@ -1,18 +1,21 @@
 import React from 'react';
 import s from './Main.module.css';
 import styleContainer from './../../../common/styles/Container.module.css'
+import bgOpacity from './../../../common/styles/bgOpacity.module.css'
 import myPhoto from '../../../common/img/myPhoto.jpg'
+import bg from '../../../common/img/headerBg/2.jpg'
 
 export const Main = () => {
-    return <div className={s.mainBlock}>
+    return <div className={s.mainBlock} style={{background: `center / cover no-repeat url(${bg})`, backgroundAttachment: 'fixed'}}>
+        <div className={bgOpacity.bgOpacity}></div>
         <div className={styleContainer.container}>
             <div className={s.greetingText}>
                 <span>Hi There</span>
-                <h1>Lorem ipsum</h1>
+                <h1>Nesterovich Vadim</h1>
                 <p>Front-end development</p>
             </div>
             <div className={s.photo}>
-                <img src={myPhoto} alt="myPhoto" className={s.myPhoto} id='photo'/>
+                <img src={myPhoto} alt="myPhoto" className={s.myPhoto}  id='photo'/>
             </div>
         </div>
     </div>
