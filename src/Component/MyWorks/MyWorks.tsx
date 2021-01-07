@@ -6,7 +6,7 @@ import {Works} from "./Works/Works";
 
 export const MyWorks = () => {
     return <div className={styleContainer.main_block}>
-        <h2>Мои Работы</h2>
+        <h2 className={styleContainer.main_title}>Мои Работы</h2>
         <div className={ styleContainer.container }>
            <Works />
         </div>

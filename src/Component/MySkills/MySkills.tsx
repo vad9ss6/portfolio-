@@ -12,9 +12,9 @@ type PropsType = {
 export const MySkills = (props: PropsType) => {
     return <div className={`${styleContainer.main_block} ${s.block}`} id={'MySkills'}>
         <h2 className={styleContainer.main_title}>Мои скиллы</h2>
-        <div className={styleContainer.container}>
-            {props.skills.map(skills => <Slide direction={skills.animation} triggerOnce={true}>
-                <Skills key={skills.id}
+        <div className={styleContainer.container} >
+            {props.skills.map(skills => <Slide direction={skills.animation} triggerOnce={true} key={skills.id}>
+                <Skills
                         id={skills.id}
                         iconSvg={skills.iconSvg}
                         description={skills.description}
