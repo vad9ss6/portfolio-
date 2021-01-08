@@ -12,7 +12,7 @@ export const Main = () => {
             <div className={s.greetingText}>
                 <span>Hi There</span>
                 <h1>Nesterovich Vadim</h1>
-                <p>Front-end development</p>
+                <span>Front-end development</span>
             </div>
             <div className={s.photo}>
                 <img src={myPhoto} alt="myPhoto" className={s.myPhoto}  id='photo'/>

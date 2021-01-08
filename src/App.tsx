@@ -6,6 +6,7 @@ import {MyWorks} from "./Component/MyWorks/MyWorks";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 import {Contact} from "./Component/Contacts/Contact";
 import { Footer } from './Component/Footer/Footer';
+import todoImg from './common/img/myWorkImg/todopng.png'
 
 
 export type mySkillsType = {
@@ -16,9 +17,15 @@ export type mySkillsType = {
     color: string
     animation: "down" | "left" | "right" | "up" | undefined
 }
+export type myWorksType = {
+    id: number
+    imgWork: string
+    title: string
+    description: string
+}
 type stateType = {
     mySkills: Array<mySkillsType>
-    MyWorks: string
+    MyWorks: Array<myWorksType>
     Footer: string
 }
 
@@ -31,7 +38,11 @@ const state: stateType = {
         {id: 5, iconSvg: ["fab", "html5"], title: 'HTML5', description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque maiores, molestias reiciendis ', color:'#E96228', animation: 'right'},
         {id: 6, iconSvg: ["fab", "css3-alt"], title: 'CSS3', description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ', color:'#28A3D9', animation: 'right'},
     ],
-    MyWorks: '',
+    MyWorks: [
+        {id: 1, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing', title: 'To do list'},
+        {id: 2, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque', title: 'To do list'},
+        {id: 3, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque', title: 'To do list'}
+    ],
     Footer: ''
 }
 
@@ -40,7 +51,7 @@ export const App = () => {
         <div className="App">
             <Header/>
             <MySkills skills={state.mySkills}/>
-            <MyWorks/>
+            <MyWorks works={state.MyWorks}/>
             <Contact />
             <Footer />
         </div>

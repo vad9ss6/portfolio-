@@ -6,13 +6,10 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #d92929;
 }
-
 .card div{
     margin-bottom: 20px;
 }
-
 .card div:last-child{
     margin-bottom: 0;
 }

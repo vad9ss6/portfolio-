@@ -1,14 +1,10 @@
 import {IconProp, library} from '@fortawesome/fontawesome-svg-core'
-import {faReact, faJs, faHtml5, faGithub, faCss3Alt, faRProject} from '@fortawesome/free-brands-svg-icons'
+import {faReact, faJs, faHtml5, faGithub, faCss3Alt} from '@fortawesome/free-brands-svg-icons'
 import React from 'react';
 import s from './Skills.module.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faAtom} from "@fortawesome/free-solid-svg-icons";
-
-
-
-
-library.add(faReact, faJs, faHtml5, faCss3Alt, faGithub, faRProject, faAtom);
+library.add(faReact, faJs, faHtml5, faCss3Alt, faGithub, faAtom);
 
 type PropsType = {
     id: number
@@ -17,7 +13,6 @@ type PropsType = {
     title: string
     color: string
 }
-
 
 export const Skills = (props: PropsType) => {
     return <div className={s.card}>

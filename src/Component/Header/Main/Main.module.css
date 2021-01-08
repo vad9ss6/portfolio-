@@ -1,12 +1,17 @@
 .mainBlock{
     height: 100vh;
-    background-color: #ffd4f0;
+    background-color: #000;
 }
 
 .greetingText{
+    padding: 20px 0;
     z-index: 2;
-    width: 300px;
     color: #fff
+}
+
+.greetingText h1{
+    margin: -10px 0 -10px -2px;
+    font-size: 48px;
 }
 
 .photo{
@@ -25,5 +30,5 @@
     display: block;
     max-width: 300px ;
     height: auto;
-    margin-right: 80px;
+    padding-right: 50px;
 }
