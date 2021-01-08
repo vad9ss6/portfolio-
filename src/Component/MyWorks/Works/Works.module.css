@@ -1,15 +1,17 @@
 .card{
-    width: 300px;
-    height: auto;
     padding: 10px;
     margin-bottom: 20px;
     display: flex;
-
+    width: 500px;
     flex-direction: column;
     align-items: center;
-    background-color: #d92929;
+    background-color: rgba(0,0,0,0.5);
 }
-
+.workImg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .card div{
     margin-bottom: 20px;
 }
