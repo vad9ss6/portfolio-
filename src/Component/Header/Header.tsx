@@ -1,4 +1,4 @@
-import React, {useState, MouseEvent, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import s from './Header.module.css';
 import {Main} from "./Main/Main";
 import {HeaderNav} from "./HeaderNav/HeaderNav";
@@ -14,9 +14,11 @@ export const Header = () => {
 
     useEffect(() => {
         let photo  = document.getElementById('photo')
+        let borderPhoto  = document.getElementById('borderPhoto')
         window.addEventListener('mousemove',e => {
-            if(photo){
+            if(photo && borderPhoto){
                 photo.style.transform = (`translate(${e.screenX / 30}px,${e.screenY / 30}px)`)
+                borderPhoto.style.transform = (`translate(${e.screenY / 30}px,${e.screenX / 30}px)`)
             }
         })
     },[])
