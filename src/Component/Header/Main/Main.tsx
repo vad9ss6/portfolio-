@@ -11,11 +11,12 @@ export const Main = () => {
         <div className={styleContainer.container}>
             <div className={s.greetingText}>
                 <span>Hi There</span>
-                <h1>Nesterovich Vadim</h1>
+                <h1>Nesterovich <span className={s.styleTitle}>Vadim</span></h1>
                 <span>Front-end development</span>
             </div>
             <div className={s.photo}>
                 <img src={myPhoto} alt="myPhoto" className={s.myPhoto}  id='photo'/>
+                <div className={s.borderPhoto} id={'borderPhoto'}></div>
             </div>
         </div>
     </div>

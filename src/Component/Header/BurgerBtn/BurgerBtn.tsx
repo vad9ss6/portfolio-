@@ -6,7 +6,6 @@ type BurgerBtnType = {
     isActive: boolean
     toggleButton: () => void
 }
-
 export const BurgerBtn:FC<BurgerBtnType> = ({isActive,toggleButton}) => {
     return <div className={s.burgerBtn}>
         <HamburgerSpring
