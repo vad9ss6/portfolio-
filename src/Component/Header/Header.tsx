@@ -18,7 +18,7 @@ export const Header = () => {
         window.addEventListener('mousemove',e => {
             if(photo && borderPhoto){
                 photo.style.transform = (`translate(${e.screenX / 30}px,${e.screenY / 30}px)`)
-                borderPhoto.style.transform = (`translate(${e.screenY / 30}px,${e.screenX / 30}px)`)
+                borderPhoto.style.transform = (`translate(${e.screenY / 30}px,${e.screenY / 30}px)`)
             }
         })
     },[])

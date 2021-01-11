@@ -7,7 +7,7 @@ import bg from '../../../common/img/headerBg/2.jpg'
 
 export const Main = () => {
     return <div className={s.mainBlock} style={{background: `center / cover no-repeat url(${bg})`, backgroundAttachment: 'fixed'}}>
-        <div className={bgOpacity.bgOpacity}></div>
+        <div className={bgOpacity.bgOpacity}/>
         <div className={styleContainer.container}>
             <div className={s.greetingText}>
                 <span>Hi There</span>
@@ -16,7 +16,7 @@ export const Main = () => {
             </div>
             <div className={s.photo}>
                 <img src={myPhoto} alt="myPhoto" className={s.myPhoto}  id='photo'/>
-                <div className={s.borderPhoto} id={'borderPhoto'}></div>
+                <div className={s.borderPhoto} id={'borderPhoto'}/>
             </div>
         </div>
     </div>
