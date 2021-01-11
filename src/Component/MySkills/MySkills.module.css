@@ -2,3 +2,9 @@
     background-color: #241e1e;
     color: #d2caca;
 }
+.containerSkills{
+    align-items: stretch;
+}
+.item{
+    margin-bottom: 30px;
+}

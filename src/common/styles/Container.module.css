@@ -4,8 +4,8 @@
     height: 100%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
 
 }
@@ -15,11 +15,13 @@
     flex-direction: column;
     align-items: center;
     padding: 100px 0;
-
+    z-index: 0;
+    position: relative;
 }
 
 
 .main_title{
+    z-index: 3;
     text-transform: uppercase;
     margin-bottom: 40px;
     letter-spacing: 4px;
