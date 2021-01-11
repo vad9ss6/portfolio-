@@ -22,6 +22,7 @@ export type myWorksType = {
     imgWork: string
     title: string
     description: string
+    link: string
 }
 type stateType = {
     mySkills: Array<mySkillsType>
@@ -39,9 +40,9 @@ const state: stateType = {
         {id: 6, iconSvg: ["fab", "css3-alt"], title: 'CSS3', description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ', color:'#28A3D9', animation: 'right'},
     ],
     MyWorks: [
-        {id: 1, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing', title: 'To do list'},
-        {id: 2, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque', title: 'To do list'},
-        {id: 3, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque', title: 'To do list'}
+        {id: 1, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing', title: 'To do list', link:'https://vad9ss6.github.io/IT-INkubator-toDoList/'},
+        {id: 2, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque', title: 'To do list', link:''},
+        {id: 3, imgWork: `${todoImg}`, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus inventore itaque', title: 'To do list', link:''}
     ],
     Footer: ''
 }
